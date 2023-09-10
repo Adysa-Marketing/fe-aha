@@ -101,7 +101,13 @@ const Home = ({ frontmatter }) => {
                     {/* Slides */}
                     {service?.images.map((slide, index) => (
                       <SwiperSlide key={index}>
-                        <Image src={slide} alt="" width={600} height={500} />
+                        <Image
+                          className="mb-3"
+                          src={slide}
+                          alt=""
+                          width={600}
+                          height={500}
+                        />
                       </SwiperSlide>
                     ))}
                   </Swiper>
@@ -114,7 +120,7 @@ const Home = ({ frontmatter }) => {
                   }`}
                 >
                   <h2 className="font-bold leading-[40px]">{service?.title}</h2>
-                  <p className="mt-4 mb-2">{service?.content}</p>
+                  <p className="mb-2 mt-4">{service?.content}</p>
                   {service.button.enable && (
                     <Link
                       href={service?.button.link}

@@ -1,12 +1,12 @@
 {
   "site": {
-    "title": "Bigspring Light Nextjs",
+    "title": "Company Profile",
     "base_url": "/",
     "favicon": "/images/favicon.png",
     "logo": "/images/logo-new.png",
     "logo_width": "200",
     "logo_height": "48",
-    "logo_text": "Bigspring Light"
+    "logo_text": "Adysa Skincare"
   },
 
   "settings": {
@@ -24,13 +24,13 @@
   "params": {
     "contact_form_action": "",
     "tag_manager_id": "",
-    "footer_content": "Lorem ipsum dolor sit amet, consectetur elit. Consjat tristique eget amet, tempus eu at cttur.",
-    "copyright": "Designed and Developed By [Themefisher](https://themefisher.com/)"
+    "footer_content": "Ngemplak Kidul, Rt04/Rw04, Kec. Margoyoso, Kab. Pati . post 59154",
+    "copyright": "&copy; Copyright by [AdysaSkincare](https://adysaskincare.com/) All Right Reserved"
   },
 
   "metadata": {
-    "meta_author": "Themefisher",
+    "meta_author": "Adysa Skincare",
     "meta_image": "",
-    "meta_description": "A SAAS template for nextjs"
+    "meta_description": "Company Profile"
   }
 }

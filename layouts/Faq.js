@@ -8,7 +8,7 @@ function Faq({ data }) {
       <div className="container">
         {markdownify(title, "h1", "text-center font-normal")}
         <div className="section row  -mt-6">
-          {faqs.map((faq, index) => (
+          {/* {faqs.map((faq, index) => (
             <div key={index} className="col-12 mt-6 md:col-6">
               <div className="p-12  shadow">
                 <div className="faq-head relative">
@@ -17,7 +17,7 @@ function Faq({ data }) {
                 {markdownify(faq.answer, "p", "faq-body mt-4")}
               </div>
             </div>
-          ))}
+          ))} */}
         </div>
       </div>
     </section>

@@ -9,7 +9,7 @@
       "url": "/blogs"
     },
     {
-      "name": "Pricing",
+      "name": "Paket",
       "url": "/pricing"
     },
     {
@@ -26,7 +26,7 @@
       "name": "Company",
       "menu": [
         {
-          "text": "Pricing",
+          "text": "Paket",
           "url": "/pricing"
         },
         {
@@ -47,7 +47,7 @@
           "url": "#"
         },
         {
-          "text": "Pricing",
+          "text": "Paket",
           "url": "/pricing"
         }
       ]
