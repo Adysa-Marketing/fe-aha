@@ -3,8 +3,9 @@ import shortcodes from "@shortcodes/all";
 import { MDXRemote } from "next-mdx-remote";
 import Image from "next/image";
 import Base from "./Baseof";
+const imgUrl = process.env.NEXT_PUBLIC_IMG;
 
-const PostSingle = ({ frontmatter, content, mdxContent }) => {
+const PostSingle = ({ frontmatter, content, htmlContent }) => {
   let { description, title, image } = frontmatter;
   description = description ? description : content.slice(0, 120);
 
@@ -16,7 +17,7 @@ const PostSingle = ({ frontmatter, content, mdxContent }) => {
             <article className="col-12 mx-auto text-center md:col-8">
               {image && (
                 <Image
-                  src={image}
+                  src={`${imgUrl}/${image}`}
                   height="500"
                   width="1000"
                   alt={title}
@@ -28,7 +29,8 @@ const PostSingle = ({ frontmatter, content, mdxContent }) => {
               {markdownify(title, "h1", "h2 mb-6 mt-6 text-left")}
 
               <div className="content mb-16 text-left">
-                <MDXRemote {...mdxContent} components={shortcodes} />
+                {/* <MDXRemote {...mdxContent} components={shortcodes} /> */}
+                <div dangerouslySetInnerHTML={{__html: htmlContent}} />
               </div>
             </article>
           </div>

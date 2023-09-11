@@ -2,6 +2,7 @@ import config from "@config/config.json";
 import { plainify } from "@lib/utils/textConverter";
 import Image from "next/image";
 import Link from "next/link";
+const imgUrl = process.env.NEXT_PUBLIC_IMG;
 
 const Posts = ({ posts }) => {
   const { blog_folder, summary_length } = config.settings;
@@ -10,11 +11,11 @@ const Posts = ({ posts }) => {
       <div className="col-12 pb-12 lg:pb-24">
         <div className="row items-center">
           <div className="col-12 md:col-6">
-            {posts[0].frontmatter.image && (
+            {posts[0].image && (
               <Image
                 className="h-auto w-full rounded-lg"
-                src={posts[0].frontmatter.image}
-                alt={posts[0].frontmatter.title}
+                src={`${imgUrl}/${posts[0].image}`}
+                alt={posts[0].excerpt}
                 width={540}
                 height={227}
                 priority={true}
@@ -27,15 +28,10 @@ const Posts = ({ posts }) => {
                 href={`/${blog_folder}/${posts[0].slug}`}
                 className="block hover:text-primary"
               >
-                {posts[0].frontmatter.title}
+                {posts[0].title}
               </Link>
             </h2>
-            <p className="text-text">
-              {plainify(
-                posts[0].content?.slice(0, Number(summary_length)),
-                "div"
-              )}
-            </p>
+            <p className="text-text">{plainify(posts[0].excerpt, "div")}</p>
             <Link
               className="btn btn-primary mt-4"
               href={`/${blog_folder}/${posts[0].slug}`}
@@ -48,11 +44,11 @@ const Posts = ({ posts }) => {
       </div>
       {posts.slice(1).map((post, i) => (
         <div key={`key-${i}`} className="col-12 mb-8 sm:col-6 lg:col-4">
-          {post.frontmatter.image && (
+          {post.image && (
             <Image
               className="rounded-lg"
-              src={post.frontmatter.image}
-              alt={post.frontmatter.title}
+              src={`${imgUrl}/${post.image}`}
+              alt={post.title}
               width={i === 0 ? "925" : "445"}
               height={i === 0 ? "475" : "230"}
             />
@@ -62,10 +58,10 @@ const Posts = ({ posts }) => {
               href={`/${blog_folder}/${post.slug}`}
               className="block hover:text-primary"
             >
-              {post.frontmatter.title}
+              {post.title}
             </Link>
           </h2>
-          <p className="text-text">{post.frontmatter.desc}</p>
+          <p className="text-text">{post.excerpt}</p>
           <Link
             className="btn btn-primary mt-4"
             href={`/${blog_folder}/${post.slug}`}

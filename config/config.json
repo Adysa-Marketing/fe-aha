@@ -11,14 +11,15 @@
 
   "settings": {
     "pagination": 4,
+    "rowsPerPage": 10,
     "summary_length": 200,
     "blog_folder": "blogs"
   },
 
   "nav_button": {
     "enable": true,
-    "label": "Get Started",
-    "link": "/contact"
+    "label": "Login / Register",
+    "link": "https://dashboard.adysaskincare.com"
   },
 
   "params": {
