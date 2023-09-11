@@ -10,7 +10,7 @@
     },
     {
       "name": "Paket",
-      "url": "/pricing"
+      "url": "/package"
     },
     {
       "name": "Contact",
@@ -27,7 +27,7 @@
       "menu": [
         {
           "text": "Paket",
-          "url": "/pricing"
+          "url": "/package"
         },
         {
           "text": "Quick Start",
@@ -48,7 +48,7 @@
         },
         {
           "text": "Paket",
-          "url": "/pricing"
+          "url": "/package"
         }
       ]
     },
