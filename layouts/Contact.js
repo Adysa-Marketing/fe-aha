@@ -11,7 +11,7 @@ const Contact = ({ data }) => {
       <div className="container">
         {markdownify(title, "h1", "text-center font-normal")}
         <div className="section row pb-0">
-          <div className="col-12 md:col-6 lg:col-7">
+          {/* <div className="col-12 md:col-6 lg:col-7">
             <form
               className="contact-form"
               method="POST"
@@ -55,11 +55,11 @@ const Contact = ({ data }) => {
                 Send Now
               </button>
             </form>
-          </div>
-          <div className="content col-12 md:col-6 lg:col-5">
+          </div> */}
+          <div className="content col-12 md:col-10 lg:col-10">
             {markdownify(info.title, "h4")}
             {markdownify(info.description, "p", "mt-4")}
-            <ul className="contact-list mt-5">
+            <ul className="contact-list mt-6">
               {info.contacts.map((contact, index) => (
                 <li key={index}>
                   {markdownify(contact, "strong", "text-dark")}

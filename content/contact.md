@@ -1,12 +1,12 @@
 ---
-title: "Contact Us"
+title: "Hubungi Kami"
 layout: "contact"
 draft: false
 info: 
-  title: Why you should contact us!
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit recusandae voluptates doloremque veniam temporibus porro culpa ipsa, nisi soluta minima saepe laboriosam debitis nesciunt.
+  title: Temukan Alasan Mengapa Anda Harus Menghubungi Kami!
+  description: Hubungi kami sekarang untuk mendapatkan saran ahli, mengetahui lebih lanjut tentang bisnis dan produk kami, atau mengajukan pertanyaan seputar perawatan kulit. Kami siap menjawab setiap pertanyaan dan membantu Anda meraih financial yang luar biasa melalui bisnis yang kami tawarkan
   contacts: 
-    - "phone: +88 125 256 452"
-    - "Mail: [info@bigspring.com](mailto:info@bigspring.com)"
-    - "Address: 360 Main rd, Rio, Brazil"
+    - "phone: +628121588315"
+    - "Mail: [adysaskin@gmail.com](mailto:adysaskin@gmail.com)"
+    - "Address: Ngemplak Kidul Rt04/Rw04, Kec. Margoyoso, Kab. Pati - pos 59154"
 ---

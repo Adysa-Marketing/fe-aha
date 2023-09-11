@@ -37,7 +37,7 @@ const Posts = ({ posts }) => {
               href={`/${blog_folder}/${posts[0].slug}`}
               rel=""
             >
-              Read More
+              Selengkapnya
             </Link>
           </div>
         </div>
