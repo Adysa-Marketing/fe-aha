@@ -5,7 +5,6 @@ function Package({ data }) {
   const {
     frontmatter: { title, plans, call_to_action },
   } = data;
-  console.log("plans : ", plans);
   return (
     <>
       <section className="section pb-0">
