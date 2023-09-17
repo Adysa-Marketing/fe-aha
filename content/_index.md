@@ -8,7 +8,7 @@ banner:
   #   label: "Contact Us"
   #   link: "/contact"
   title: Transformasi Kulit Sehat, Kesempatan Keberhasilan Tak Terbatas
-  content: Tampil lebih percaya diri dengan kulit wajah yg cerah dan berseri setiap saat bersama Adysa Skincare. Dengan rangkaian produk kami yang berkualitas tinggi, Anda tidak hanya bisa memiliki kulit yang indah, tetapi juga kesempatan untuk mencapai kebebasan finansial melalui MLM kami. Mari bergabung dan berkilau bersama Adysa
+  content: Tampil lebih percaya diri dengan kulit wajah yg cerah dan berseri setiap saat bersama Adysa Skincare. Dengan rangkaian produk kami yang berkualitas tinggi, Anda tidak hanya bisa memiliki kulit yang indah, tetapi juga kesempatan untuk mencapai kebebasan finansial melalui bisnis yang kami tawarkan. Mari bergabung dan berkilau bersama Adysa
   # image: /images/banner-art.svg
   image: /images/sample-banner.jpeg
   button:
@@ -41,7 +41,7 @@ feature:
 # services
 services:
   - title: "Layanan Produk Unggulan Kami"
-    content: "Bergabunglah dengan Komunitas Skincare MLM Kami dan raih keuntungan luar biasa! Nikmati produk skincare berkualitas tinggi dan hasil menakjubkan. Dapatkan pendapatan pasif berkelanjutan, pelatihan komprehensif, dan dukungan tim yang berdedikasi. Bergabung sekarang dan mulailah perjalanan menuju kebebasan finansial dan kehidupan yang lebih baik!"
+    content: "Bergabunglah dengan Komunitas Network Marketing Kami dan raih keuntungan luar biasa! Nikmati produk skincare berkualitas tinggi dan hasil menakjubkan. Dapatkan pendapatan pasif berkelanjutan, pelatihan komprehensif, dan dukungan tim yang berdedikasi. Bergabung sekarang dan mulailah perjalanan menuju kebebasan finansial dan kehidupan yang lebih baik!"
     images:
       - "/images/product1.jpeg"
       - "/images/product2.jpeg"
@@ -54,7 +54,7 @@ services:
       link: /contact
   
   - title: "Raih Reward Menarik Dan Menguntungkan"
-    content: " Bergabunglah dalam bisnis MLM skincare kami dan raih reward impian! Dapatkan hadiah menarik seperti handphone, laptop, motor, mobil, atau bahkan rumah mewah sesuai dengan performa Anda dalam merekrut downline. Nikmati kesuksesan finansial dan hadiah-hadiah istimewa yang menggiurkan. Bergabung sekarang dan mulailah meraih reward yang memikat!"
+    content: " Bergabunglah dalam Network Marketing skincare kami dan raih reward impian! Dapatkan hadiah menarik seperti handphone, laptop, motor, mobil, atau bahkan rumah mewah sesuai dengan performa Anda dalam merekrut downline. Nikmati kesuksesan finansial dan hadiah-hadiah istimewa yang menggiurkan. Bergabung sekarang dan mulailah meraih reward yang memikat!"
     images:
       - "/images/reward01.png"
       - "/images/reward02.png"
@@ -69,8 +69,8 @@ services:
       label: Check it out
       link: /contact
   
-  - title: "Bergabunglah dengan Komunitas Skincare MLM dan Raih Sukses Bersama Kami!"
-    content: "Temukan peluang bisnis skincare yang menarik! Bergabunglah dalam komunitas MLM kami dan dapatkan produk skincare berkualitas tinggi dengan hasil yang menakjubkan. Lihatlah inspirasi dari member sukses kami yang telah meraih kebebasan finansial. Bergabung sekarang untuk meraih kesuksesan Anda sendiri!"
+  - title: "Bergabunglah dengan Komunitas Network Marketing kami dan Raih Sukses Bersama Kami!"
+    content: "Temukan peluang bisnis skincare yang menarik! Bergabunglah dalam komunitas network marketing kami dan dapatkan produk skincare berkualitas tinggi dengan hasil yang menakjubkan. Lihatlah inspirasi dari member sukses kami yang telah meraih kebebasan finansial. Bergabung sekarang untuk meraih kesuksesan Anda sendiri!"
     images: 
       - "/images/owner.jpeg"
       # - "/images/service-slide-1.png"
@@ -99,7 +99,7 @@ workflow:
 # call_to_action
 call_to_action:
   title: Siap untuk bergabung?
-  content: Raih kesuksesan finansial dengan bisnis MLM skincare kami. Dapatkan dukungan dan pelatihan yang Anda butuhkan. Bergabunglah sekarang dan ubah hidup Anda! Mulailah membangun masa depan yang gemilang!
+  content: Raih kesuksesan finansial dengan bisnis network marketing kami. Dapatkan dukungan dan pelatihan yang Anda butuhkan. Bergabunglah sekarang dan ubah hidup Anda! Mulailah membangun masa depan yang gemilang!
   image: '/images/cta01.svg'
   button:
     enable: true

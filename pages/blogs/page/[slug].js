@@ -94,6 +94,10 @@ export const getStaticProps = async ({ params }) => {
     data = posts2.data;
     totalData = posts2.totalData;
     totalPages = posts2.totalPages;
+  }else{
+    data = [];
+    totalData = 0;
+    totalPages = 0;
   }
 
   // biarkan code dibawah

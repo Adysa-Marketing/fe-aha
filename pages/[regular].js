@@ -90,6 +90,27 @@ export const getStaticProps = async ({ params }) => {
         },
         content: "",
       };
+    } else {
+      data = {
+        frontmatter: {
+          title: "Paket",
+          layout: "package",
+          draft: false,
+          plans: [],
+          call_to_action: {
+            title: "Siap untuk bergabung ?",
+            content:
+              "Raih kesuksesan finansial dengan bisnis MLM skincare kami. Dapatkan dukungan dan pelatihan yang Anda butuhkan. Bergabunglah sekarang dan ubah hidup Anda! Mulailah membangun masa depan yang gemilang!",
+            image: "/images/cta01.svg",
+            button: {
+              enable: true,
+              label: "Hubungi Kami",
+              link: "https://wa.me/+628121588315?text=Halo admin adysa, saya ingin bergabung menjadi member",
+            },
+          },
+        },
+        content: "",
+      };
     }
 
     return {
