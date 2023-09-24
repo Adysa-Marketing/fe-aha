@@ -1,0 +1,9 @@
+version: "3.8"
+services:
+  aha:
+    container_name: aha
+    build: ./
+    restart: always
+    env_file: ./.env
+    ports:
+      - "3030:3000"
