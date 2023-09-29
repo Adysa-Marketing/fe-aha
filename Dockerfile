@@ -8,7 +8,7 @@ WORKDIR /usr/src/app
 COPY package*.json ./
 
 # Install dependensi proyek
-RUN npm ci --only=production
+RUN npm --production
 
 # Copy seluruh proyek ke dalam container
 COPY . .
