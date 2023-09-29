@@ -52,6 +52,20 @@ const App = ({ Component, pageProps }) => {
           name="viewport"
           content="width=device-width, initial-scale=1, maximum-scale=5"
         />
+        {/* SEO */}
+        <meta
+          name="description"
+          content="Penyedia produk skincare berkualitas tinggi dengan hasil menakjubkan serta memberikan tawaran pengembangan bisnis yang menjanjikan"
+        />
+        <meta name="keywords" content="Adysa Skincare" />
+        <meta property="og:image" content="https://www.adysaskincare.com/images/sample-banner.jpeg" />
+        <meta
+          name="robots"
+          content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+        />
+        <link rel="canonical" href="https://www.adysaskincare.com/" />
+        <meta property="og:url" content="https://www.adysaskincare.com/" />
+        <meta property="og:site_name" content="ADYSA SKINCARE" />
       </Head>
       <Component {...pageProps} />
     </>
