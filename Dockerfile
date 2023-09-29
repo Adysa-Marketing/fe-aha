@@ -8,7 +8,7 @@ WORKDIR /usr/src/app
 COPY package*.json ./
 
 # Install dependensi proyek
-RUN npm --production
+RUN npm install --production
 
 # Copy seluruh proyek ke dalam container
 COPY . .
