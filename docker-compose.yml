@@ -1,9 +1,11 @@
 version: "3.8"
 services:
-  aha:
-    container_name: aha
+  landing_page:
+    container_name: landing_page
     build: ./
     restart: always
     env_file: ./.env
     ports:
-      - "3030:3000"
+      - "56123:3000"
+    volumes:
+      - .:/usr/src/app
