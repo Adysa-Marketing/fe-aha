@@ -1,36 +1,23 @@
-FROM node:18-alpine AS deps
-RUN apk add --no-cache libc6-compat
-WORKDIR /app
+# Gunakan node:16 sebagai base image
+FROM node:16
 
+# Set working directory di dalam container
+WORKDIR /usr/src/app
+
+# Copy package.json dan package-lock.json ke dalam container
 COPY package*.json ./
-RUN  npm install --production
 
-FROM node:18-alpine AS builder
-WORKDIR /app
-COPY --from=deps /app/node_modules ./node_modules
+# Install dependensi proyek
+RUN npm ci --only=production
+
+# Copy seluruh proyek ke dalam container
 COPY . .
 
-ENV NEXT_TELEMETRY_DISABLED 1
-
+# Build aplikasi Next.js
 RUN npm run build
 
-FROM node:18-alpine AS runner
-WORKDIR /app
-
-ENV NODE_ENV production
-ENV NEXT_TELEMETRY_DISABLED 1
-
-RUN addgroup --system --gid 1001 nodejs
-RUN adduser --system --uid 1001 nextjs
-
-COPY --from=builder --chown=nextjs:nodejs /app/.next ./.next
-COPY --from=builder /app/node_modules ./node_modules
-COPY --from=builder /app/package.json ./package.json
-
-USER nextjs
-
+# Expose port yang digunakan oleh Next.js (default: 3000)
 EXPOSE 3000
 
-ENV PORT 3000
-
+# Command untuk menjalankan aplikasi Next.js
 CMD ["npm", "start"]
