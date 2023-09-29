@@ -1,6 +1,6 @@
 {
   "site": {
-    "title": "Company Profile",
+    "title": "Adysa Skincare",
     "base_url": "/",
     "favicon": "/images/favicon.png",
     "logo": "/images/logo-new.png",
@@ -31,7 +31,7 @@
 
   "metadata": {
     "meta_author": "Adysa Skincare",
-    "meta_image": "",
-    "meta_description": "Company Profile"
+    "meta_image": "https://www.adysaskincare.com/images/sample-banner.jpeg",
+    "meta_description": "Penyedia produk skincare berkualitas tinggi dengan hasil menakjubkan serta memberikan tawaran pengembangan bisnis yang menjanjikan"
   }
 }
